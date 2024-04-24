@@ -86,12 +86,13 @@
       </nav>
     </header>
     <main>
-      <section class="shopping-card-container">
+      <section class="shopping-card-container" id="cart" >
         <div class="total-price">
           <span> Total price : </span>
-          <span class="total"> 0 $ </span>
+          <span class="total"> $0.00 </span>
         </div>
         <div class="list-products">
+
           <!-- Product 1 : baskets -->
           <div class="card-body">
             <div class="card" style="width: 18rem">
@@ -110,14 +111,14 @@
                   <i class="fas fa-minus-circle"></i>
                 </div>
                 <div>
-                  <i class="fas fa-trash-alt"></i>
-                  <i class="fas fa-heart"></i>
+                  <i class="fas fa-trash-alt" class="remove-item"></i>
+                  <i class="fas fa-heart" class="like-button"></i>
                 </div>
               </div>
             </div>
           </div>
-          <!-- Product 2 : socks -->
 
+          <!-- Product 2 : socks -->
           <div class="card-body">
             <div class="card" style="width: 18rem">
               <img src="/assets/socks.png" class="card-img-top" alt="socks" />
@@ -137,6 +138,7 @@
               </div>
             </div>
           </div>
+
           <!-- Product 3 : bag -->
           <div class="card-body">
             <div class="card" style="width: 18rem">
